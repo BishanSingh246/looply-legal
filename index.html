@@ -22,6 +22,7 @@
   h2 { font-size: 1.25rem; margin-top: 2rem; }
   h3 { font-size: 1.05rem; margin-top: 1.25rem; }
   .updated { color: #8e8e93; font-size: 0.9rem; margin-top: 0; }
+  .nav { font-size: 0.9rem; margin: 0 0 20px; }
   .contact { padding: 12px 16px; border-left: 4px solid #5856d6; background: rgba(88,86,214,0.08); border-radius: 6px; }
   table { border-collapse: collapse; width: 100%; margin: 12px 0; }
   td, th { border: 1px solid #d1d1d6; padding: 8px 10px; text-align: left; vertical-align: top; }
@@ -30,79 +31,116 @@
 </style>
 </head>
 <body>
-  <h1>Looply Privacy Policy</h1>
-  <p class="updated">Last updated: 21 July 2026</p>
+  <p class="nav"><a href="./privacy-policy.html">Privacy Policy</a> &middot; <a href="./terms-of-service.html">Terms of Service</a> &middot; <a href="./delete-account.html">Delete account</a></p>
 
-  <p>Looply ("Looply", "we", "us") is a mobile app where you create and play short
+  <h1>Looply Privacy Policy</h1>
+  <p class="updated">Last updated: 13 November 2026</p>
+
+  <p>Looply ("Looply", "we", "us") is an app where you create and play short
   interactive mini-games in a swipeable feed. This policy explains what data we collect,
   why, who we share it with, and the choices you have. It applies to the Looply Android app
-  (package <code>com.looplyai.looply</code>) during our closed testing (alpha) phase and after.</p>
+  (package <code>com.looplyai.looply</code>) and the Looply web app during our closed
+  testing (alpha) phase and after.</p>
 
-  <p class="contact"><strong>Contact:</strong> privacy questions and data requests —
+  <p class="contact"><strong>Contact:</strong> privacy questions and data requests &mdash;
   <strong><a href="mailto:geofriendlabs@gmail.com">geofriendlabs@gmail.com</a></strong></p>
 
   <h2>1. Who is responsible for your data</h2>
   <p>The Looply team operates the app and its backend. During the alpha, Looply is distributed
-  only to invited testers via Google Play closed testing.</p>
+  only to invited testers, including via Google Play closed testing.</p>
 
   <h2>2. What we collect</h2>
   <p>We collect only what we need to run the app, keep it safe, and improve it.</p>
 
-  <h3>2.1 Account information</h3>
+  <h3>2.1 Account and sign-in information</h3>
   <ul>
-    <li><strong>Email address</strong> and <strong>password</strong> (passwords are handled by
-    our authentication provider and are never stored by us in plain text).</li>
-    <li><strong>Username / display name</strong> and optional <strong>profile photo (avatar)</strong>.</li>
+    <li><strong>Email address</strong> and <strong>password</strong> when you create an email
+    account. Passwords are handled by our authentication provider and are never stored by us
+    in plain text.</li>
+    <li><strong>Google Sign-In data</strong> when you choose "Continue with Google": your
+    Google account identifier, email address, name, and profile photo. We do not receive your
+    Google password and we do not access Gmail, Drive, Contacts, or other Google content.</li>
+    <li><strong>Handle / display name</strong> and optional <strong>profile photo (avatar)</strong>.
+    Your handle and display name are public; your full legal name is not.</li>
+    <li><strong>Consent records</strong>, such as the policy version you accepted and when.</li>
   </ul>
 
-  <h3>2.2 Content you create</h3>
+  <h3>2.2 Onboarding and demographic information</h3>
+  <p>After your first sign-in, we ask for a small amount of profile information. Some of it is
+  required to use Create and Profile; some is optional.</p>
+  <ul>
+    <li><strong>Full name</strong> &mdash; required, stored privately, and used to personalise
+    your account. It is not shown on your public profile unless you choose to use it as your
+    display name.</li>
+    <li><strong>Date of birth</strong> &mdash; required, stored privately, and used only to
+    check that you meet the minimum age. We do not show it publicly.</li>
+    <li><strong>Gender</strong> &mdash; optional. You can skip it or choose "Prefer not to say".</li>
+    <li><strong>City, state, and country</strong> &mdash; optional and coarse. On Android we may
+    ask for location permission to fill these in; if you decline, you can type them manually.
+    We do not store precise GPS coordinates in your profile. Some game templates may request
+    location while you play a game that needs it.</li>
+    <li><strong>Handle</strong> &mdash; required and public. We generate a neutral handle and
+    let you edit it.</li>
+  </ul>
+
+  <h3>2.3 Content you create</h3>
   <ul>
     <li><strong>Games you create</strong> (titles, prompts you type, generated game content) and drafts.</li>
     <li><strong>Comments, reactions (likes/bookmarks), votes, predictions, and submissions.</strong></li>
-    <li><strong>Uploaded media</strong> you provide (e.g. an avatar image, or audio for voice-based
-    games). User-uploaded media is stored privately and, where applicable, held for moderation
-    before it can appear to others.</li>
+    <li><strong>Uploaded media</strong> you provide (for example an avatar image, or audio for
+    voice-based games). User-uploaded media is stored privately and, where applicable, held for
+    moderation before it can appear to others.</li>
   </ul>
 
-  <h3>2.3 Gameplay and activity</h3>
+  <h3>2.4 Gameplay, activity, and purchases</h3>
   <ul>
     <li><strong>Scores, streaks, plays, completions, and play time.</strong></li>
     <li><strong>Content affinity</strong> (which kinds of games you engage with) used to order your
     feed and recommendations.</li>
+    <li><strong>Purchases and subscriptions</strong> (if enabled): the product purchased, transaction
+    status, credits, and subscription state. Payment card details are handled by Google Play; we do
+    not receive them.</li>
   </ul>
 
-  <h3>2.4 Device and permission-based data (only when you use a feature that needs it)</h3>
-  <p>Some game templates request device capabilities. These are requested <strong>on demand</strong>,
-  used <strong>only while you play that game</strong>, and are not collected in the background:</p>
+  <h3>2.5 Device and permission-based data (only when you use a feature that needs it)</h3>
+  <p>Some features and game templates request device capabilities. These are requested
+  <strong>on demand</strong>, used <strong>only while you use that feature or play that game</strong>,
+  and are not collected in the background:</p>
   <ul>
-    <li><strong>Camera</strong> — photo/pose games.</li>
-    <li><strong>Microphone</strong> — voice / loudness games.</li>
-    <li><strong>Location</strong> — movement / distance games (foreground only; no background tracking).</li>
-    <li><strong>Motion sensors</strong> — tilt-controlled games.</li>
+    <li><strong>Location</strong> &mdash; onboarding city/state/country prefill (coarse only), and
+    movement / distance games (foreground only; no background tracking).</li>
+    <li><strong>Camera</strong> &mdash; photo/pose games.</li>
+    <li><strong>Microphone</strong> &mdash; voice / loudness games.</li>
+    <li><strong>Motion sensors</strong> &mdash; tilt-controlled games.</li>
   </ul>
-  <p>You can decline any of these permissions and still use the rest of the app.</p>
+  <p>You can decline optional permissions and still use the rest of the app. If you decline
+  onboarding location, you can enter your city and state manually.</p>
 
-  <h3>2.5 Notifications</h3>
+  <h3>2.6 Notifications</h3>
   <ul>
     <li>If you enable notifications, we store a <strong>push token</strong> for your device to send
     gameplay reminders, streak nudges, and re-engagement messages. You can turn these off in your
     device settings or in the app.</li>
   </ul>
 
-  <h3>2.6 Analytics and diagnostics</h3>
+  <h3>2.7 Analytics and diagnostics</h3>
   <p>We measure how the app is used so we can improve it. This includes events such as games played,
   time spent, feature usage, retention, and where people drop off (for example: template type,
   game id, play time, score, login method, screen views). Analytics is linked to your account
-  identifier so we can understand per-user retention during the alpha.</p>
+  identifier so we can understand per-user retention during the alpha. We do not send your name,
+  email address, date of birth, gender, or the city/state you enter during onboarding as analytics
+  event parameters, and we do not use them as advertising audiences.</p>
 
-  <h3>2.7 Abuse-prevention signals</h3>
+  <h3>2.8 Abuse-prevention signals</h3>
   <p>To protect the service (rate limiting and abuse detection) we may process a
   <strong>privacy-conscious hashed network/device signal</strong>. It is used only for safety and
   quota enforcement.</p>
 
   <h2>3. How we use your data</h2>
   <ul>
-    <li>Provide core features: accounts, feed, creating/playing games, social features.</li>
+    <li>Create and authenticate your account, including email/password and Google Sign-In.</li>
+    <li>Check that you meet the minimum age and keep underage accounts off the service.</li>
+    <li>Provide core features: onboarding, profile, feed, creating/playing games, and social features.</li>
     <li>Personalise your feed and recommendations.</li>
     <li>Send notifications you have opted into.</li>
     <li>Keep the service safe: moderation, spam/abuse prevention, and enforcing limits.</li>
@@ -111,20 +149,37 @@
   </ul>
   <p>We do <strong>not</strong> sell your personal data.</p>
 
-  <h2>4. Legal bases (where applicable, e.g. EEA/UK)</h2>
+  <h2>4. Legal bases (where applicable, e.g. EEA/UK and India)</h2>
   <ul>
-    <li><strong>Performance of a contract</strong> — to provide the app you signed up for.</li>
-    <li><strong>Legitimate interests</strong> — analytics, security, and product improvement.</li>
-    <li><strong>Consent</strong> — device permissions (camera/mic/location/motion) and push
-    notifications; you can withdraw consent at any time via your device settings.</li>
+    <li><strong>Performance of a contract</strong> &mdash; to provide the app you signed up for.</li>
+    <li><strong>Legitimate interests</strong> &mdash; analytics, security, and product improvement.</li>
+    <li><strong>Consent</strong> &mdash; optional gender and location data, device permissions
+    (camera/mic/location/motion), Google Sign-In, and push notifications. You can withdraw consent
+    at any time in the app or via your device settings.</li>
+    <li><strong>Legal obligation</strong> &mdash; age checks, child safety, and responding to lawful
+    requests.</li>
   </ul>
 
-  <h2>5. Who we share data with (service providers)</h2>
+  <h2>5. Google Sign-In and Google API data</h2>
+  <p>If you choose "Continue with Google", Google authenticates you and shares basic profile data
+  with us: your Google account identifier, email address, name, and profile photo. We use it to
+  create and secure your Looply account, show your avatar, and prefill onboarding. We do not sell
+  this data, use it for targeted advertising, or share it with third parties except the service
+  providers listed below.</p>
+  <p>Looply's use and transfer to any other app of information received from Google APIs will
+  adhere to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
+  User Data Policy</a>, including the Limited Use requirements. Google's own handling of your data
+  is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+  <h2>6. Who we share data with (service providers)</h2>
   <table>
     <thead><tr><th>Provider</th><th>Purpose</th></tr></thead>
     <tbody>
       <tr><td><strong>Supabase</strong></td><td>Backend database, authentication, and private file storage</td></tr>
-      <tr><td><strong>Google Firebase / Google Analytics (GA4)</strong></td><td>App analytics and (via Firebase Cloud Messaging) push notification delivery</td></tr>
+      <tr><td><strong>Google Identity / Google Firebase / Google Analytics (GA4)</strong></td><td>Google Sign-In authentication, app analytics, and (via Firebase Cloud Messaging) push notification delivery</td></tr>
+      <tr><td><strong>Google Play Billing</strong></td><td>Processes in-app purchases and subscriptions and handles payment card data</td></tr>
+      <tr><td><strong>RevenueCat</strong> (if purchases are enabled)</td><td>Verifies purchases and subscriptions and reports billing events to our backend</td></tr>
       <tr><td><strong>Expo (EAS)</strong></td><td>App builds and push-notification routing</td></tr>
       <tr><td><strong>OpenAI</strong></td><td>Generates game content from the text prompt a creator types (used only to build a game manifest)</td></tr>
       <tr><td><strong>Gorse</strong> (if enabled)</td><td>Recommendation ranking for the feed</td></tr>
@@ -133,47 +188,64 @@
   <p>We share data with these providers only as needed to operate the app, and we may disclose data
   if required by law.</p>
 
-  <h2>6. Data retention</h2>
+  <h2>7. Data retention</h2>
   <ul>
-    <li>Account data is kept while your account exists.</li>
+    <li>Account data, profile data, and onboarding demographics are kept while your account exists.</li>
+    <li>If you sign up and do not meet the minimum age, we delete the just-created auth account,
+    profile, and demographics instead of keeping them.</li>
     <li>Raw analytics/event data is retained for a limited period and then purged automatically.</li>
-    <li>When you delete your account (Section 8), your personal data is removed as described there.</li>
+    <li>Backups may retain copies for a limited retention window before they rotate off.</li>
+    <li>When you delete your account (Section 9), your personal data is removed as described there.</li>
   </ul>
 
-  <h2>7. Your rights</h2>
+  <h2>8. Your rights</h2>
   <p>Depending on where you live, you may have the right to access, correct, export, or delete your
-  data, and to object to or restrict certain processing. You can exercise the export and deletion
-  rights directly in the app (Section 8), or contact us using the email at the top of this policy.</p>
+  data, and to object to or restrict certain processing. If you are in India, the Digital Personal
+  Data Protection Act, 2023 (DPDP) also gives you rights to access, correction, erasure, grievance
+  redressal, and nomination. You can exercise the export and deletion rights directly in the app
+  (Section 9), or contact us using the email at the top of this policy.</p>
 
-  <h2>8. Accessing, exporting, and deleting your data (in-app)</h2>
+  <h2>9. Accessing, exporting, and deleting your data (in-app)</h2>
   <ul>
-    <li><strong>Export:</strong> you can request a copy of your data ("export account data").</li>
-    <li><strong>Delete:</strong> in the app go to <strong>Profile → Settings → Danger zone → Delete
-    account</strong> and confirm. This removes your login and personal data (profile, created games,
-    comments, votes, submissions, uploaded media, and similar). Some records are
-    <strong>anonymised rather than deleted</strong> (for example analytics and moderation audit
-    entries) so they no longer identify you.</li>
+    <li><strong>Export:</strong> you can request a copy of your data ("export account data").
+    The export includes your profile and onboarding demographics.</li>
+    <li><strong>Delete:</strong> in the app go to <strong>Profile &rarr; Settings &rarr; Danger zone
+    &rarr; Delete account</strong> and confirm. This removes your login and personal data (profile,
+    demographics, created games, comments, votes, submissions, uploaded media, and similar). Some
+    records are <strong>anonymised rather than deleted</strong> (for example analytics and moderation
+    audit entries) so they no longer identify you.</li>
+    <li>Deleting your Looply account does not delete your Google account. Manage your Google account
+    separately at <a href="https://myaccount.google.com/">myaccount.google.com</a>.</li>
   </ul>
 
-  <h2>9. Children</h2>
-  <p>Looply is not directed to children under the age required by your local law (for example, under
-  13 in the US or under 16 in parts of the EEA). We do not knowingly collect data from children below
-  that age. If you believe a child has provided us data, contact us and we will delete it.</p>
+  <h2>10. Children and age</h2>
+  <p>Looply v1 is intended for users who are <strong>18 or older</strong>. We do not intentionally
+  offer accounts to anyone under 18. If a signup is under 18, we delete the just-created account,
+  profile, and demographics. If we later learn that an under-18 user created an account, we will
+  delete the account and associated personal data.</p>
+  <p>If you are in India, the DPDP Act treats individuals under 18 as children. We do not process
+  children's data for behavioural tracking or targeted advertising. If we later offer a supervised
+  mode for users aged 13-17, it will require verifiable parental consent and child-safe processing;
+  it is not part of v1.</p>
+  <p>If you believe a child has provided us data, contact us and we will delete it.</p>
 
-  <h2>10. Security</h2>
+  <h2>11. Security</h2>
   <p>We use industry-standard measures including encrypted transport (HTTPS/TLS), private storage for
   user uploads, authentication controls, and server-side access rules. No method of transmission or
   storage is 100% secure, but we work to protect your data and respond to incidents.</p>
 
-  <h2>11. International transfers</h2>
+  <h2>12. International transfers</h2>
   <p>Your data may be processed in countries other than your own (for example where our service
   providers operate). Where required, we rely on appropriate safeguards for such transfers.</p>
 
-  <h2>12. Changes to this policy</h2>
+  <h2>13. Changes to this policy</h2>
   <p>We may update this policy as the app evolves. We will change the "Last updated" date above and,
   for material changes, provide a more prominent notice.</p>
 
-  <h2>13. Contact</h2>
-  <p>Questions or requests: <strong><a href="mailto:geofriendlabs@gmail.com">geofriendlabs@gmail.com</a></strong>.</p>
+  <h2>14. Contact and grievance</h2>
+  <p>Questions, data requests, or grievances: <strong><a href="mailto:geofriendlabs@gmail.com">geofriendlabs@gmail.com</a></strong>.
+  We aim to respond within the time required by applicable law.</p>
+
+  <p class="nav"><a href="./terms-of-service.html">Terms of Service</a> &middot; <a href="./delete-account.html">Delete account</a></p>
 </body>
 </html>
