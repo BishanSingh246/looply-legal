@@ -81,6 +81,9 @@
     location while you play a game that needs it.</li>
     <li><strong>Handle</strong> &mdash; required and public. We generate a neutral handle and
     let you edit it.</li>
+    <li><strong>Teen Mode consent (13-17)</strong> &mdash; parent/guardian contact details, consent
+    status, verification method, and timestamp. We collect only what is needed to verify and
+    record parental consent.</li>
   </ul>
 
   <h3>2.3 Content you create</h3>
@@ -191,8 +194,11 @@
   <h2>7. Data retention</h2>
   <ul>
     <li>Account data, profile data, and onboarding demographics are kept while your account exists.</li>
+    <li>Parent/guardian consent records for Teen Mode are kept while the teen account exists and
+    for a limited period afterward where required for legal compliance.</li>
     <li>If you sign up and do not meet the minimum age, we delete the just-created auth account,
-    profile, and demographics instead of keeping them.</li>
+    profile, and demographics instead of keeping them. If a 13-17 signup does not complete parental
+    consent within the allowed window, we delete the account and associated data.</li>
     <li>Raw analytics/event data is retained for a limited period and then purged automatically.</li>
     <li>Backups may retain copies for a limited retention window before they rotate off.</li>
     <li>When you delete your account (Section 9), your personal data is removed as described there.</li>
@@ -208,26 +214,31 @@
   <h2>9. Accessing, exporting, and deleting your data (in-app)</h2>
   <ul>
     <li><strong>Export:</strong> you can request a copy of your data ("export account data").
-    The export includes your profile and onboarding demographics.</li>
+    The export includes your profile, onboarding demographics, and Teen Mode consent records.</li>
     <li><strong>Delete:</strong> in the app go to <strong>Profile &rarr; Settings &rarr; Danger zone
     &rarr; Delete account</strong> and confirm. This removes your login and personal data (profile,
     demographics, created games, comments, votes, submissions, uploaded media, and similar). Some
     records are <strong>anonymised rather than deleted</strong> (for example analytics and moderation
-    audit entries) so they no longer identify you.</li>
+    audit entries) so they no longer identify you. For a 13-17 account, a parent or guardian can use
+    the same deletion path or contact us.</li>
     <li>Deleting your Looply account does not delete your Google account. Manage your Google account
     separately at <a href="https://myaccount.google.com/">myaccount.google.com</a>.</li>
   </ul>
 
-  <h2>10. Children and age</h2>
-  <p>Looply v1 is intended for users who are <strong>18 or older</strong>. We do not intentionally
-  offer accounts to anyone under 18. If a signup is under 18, we delete the just-created account,
-  profile, and demographics. If we later learn that an under-18 user created an account, we will
-  delete the account and associated personal data.</p>
-  <p>If you are in India, the DPDP Act treats individuals under 18 as children. We do not process
-  children's data for behavioural tracking or targeted advertising. If we later offer a supervised
-  mode for users aged 13-17, it will require verifiable parental consent and child-safe processing;
-  it is not part of v1.</p>
-  <p>If you believe a child has provided us data, contact us and we will delete it.</p>
+  <h2>10. Children, teens, and age</h2>
+  <p>Looply is for users <strong>13 and older</strong>. Anyone under 13 may not create an account.
+  Users aged <strong>13-17</strong> may use Looply only through <strong>Teen Mode</strong> with
+  verifiable consent from a parent or legal guardian. Teen Mode may be rolled out gradually; if it
+  is not available in your region, you must be 18 or older.</p>
+  <p>For teen accounts we collect date of birth, parent/guardian contact and consent records, and
+  the minimum account/profile data needed. We do not use teen data for behavioural tracking or
+  targeted advertising. Teen profiles are private by default; public posting and comments are
+  restricted; parental supervision tools may be available.</p>
+  <p>If you are in India, the DPDP Act treats individuals under 18 as children. We obtain verifiable
+  parental consent through an authorised identity/age service or Digital Locker provider where
+  required. If consent is not completed, we delete the account and associated data after a short
+  retention window. If you believe a child under 13, or a teen without consent, provided us data,
+  contact us and we will delete it.</p>
 
   <h2>11. Security</h2>
   <p>We use industry-standard measures including encrypted transport (HTTPS/TLS), private storage for
